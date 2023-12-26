@@ -92,7 +92,7 @@ getData()
         
         elements: {
           bar: {
-            borderRadius: 4,
+            borderRadius: 6,
             borderSkipped: false
           }
         }
