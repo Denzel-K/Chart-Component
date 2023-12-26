@@ -25,6 +25,7 @@ body {
   padding: 0 4px;
 }
 .headBox {
+  border: 3px solid blue;
   width: 100%;
   display: flex;
   flex-direction: row;
