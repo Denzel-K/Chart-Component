@@ -1,0 +1,7 @@
+style-guide.md
+README.md
+README-template.md
+Notes.doc
+/node_modules
+package.json
+package-lock.json

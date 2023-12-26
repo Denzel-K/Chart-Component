@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+  
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .attribution { font-size: 12px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="headBox">
+      <div class="left">
+        <div>My balance</div>
+        <div>$921.48</div>
+      </div>
+      
+      <div class="right">
+        <img src="images/logo.svg" alt="logo">
+      </div>
+    </div>
+    
+    <div class="bodyBox">
+      <div class="title">
+        Spending - last 7 days
+      </div>
+      
+      <div class="chartHold">
+        <canvas id="chartBox"></canvas>
+      </div>
+      
+      <div class="summary">
+        <div class="bottomLeft">
+          <div>Total this month</div>
+          <div>$478.33</div>
+        </div>
+        
+        <div class="bottomRight">
+          <div>+2.4%</div>
+          <div>from last month</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/Denzel-K">Denzel Kariuki</a>.
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
