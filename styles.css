@@ -37,6 +37,8 @@ body {
 .left {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 .left > div{
   color: hsl(27, 66%, 92%);
@@ -85,7 +87,6 @@ body {
   height: 260px;
 }
 .summary {
-  padding: 1.5rem 0 1.8rem 0;
   padding: 1.5rem 0 1.6rem 0;
   width: 100%;
   display: flex;
@@ -106,7 +107,7 @@ body {
 }
 .bottomRight{
   justify-content: flex-end;
-  /* padding-bottom: 10px; */
+  padding-bottom: 10px;
 }
 .bottomLeft div:nth-child(1){
   color: hsl(28, 10%, 53%);
@@ -118,6 +119,7 @@ body {
   /*margin-top: 6px;*/
   font-size: 2.6rem;
   margin-top: 6px;
+  font-weight: 700;
 }
 
 .bottomRight div:nth-child(1){
