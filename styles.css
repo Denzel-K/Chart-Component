@@ -112,11 +112,14 @@ body {
 .bottomLeft div:nth-child(1){
   color: hsl(28, 10%, 53%);
   font-size: 1rem;
+  width: 100%;
+  text-align: left
 }
 .bottomLeft div:nth-child(2){
   color: hsl(25, 47%, 15%);
   font-size: 2.4rem;
-  /*margin-top: 6px;*/
+  width: 100%;
+  text-align: left;
   margin-top: 2px;
   font-weight: 700;
 }
